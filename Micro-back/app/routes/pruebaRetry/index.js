@@ -1,5 +1,5 @@
-var router = require("express").Router();
-var port = process.env.PORT;
+const router = require("express").Router();
+const port = process.env.PORT;
 router.get("/", async (req, res) => {
   try {
     // console.log(req.query);
